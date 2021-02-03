@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Libro extends Model
 {
-    use HasFactory;
+    protected $table='libro';
+    protected $primaryKey = 'id';
+    public function editorial(){
+        return $this->belongsTo(Editorial::class, 'editorial_fk', 'id');    }
 }
