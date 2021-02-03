@@ -1,3 +1,3 @@
 @extends('principal')
-@section('contenido')
+@section('content')
 @stop

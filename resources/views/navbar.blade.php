@@ -2,18 +2,18 @@
    
     <div class="letra collapse navbar-collapse" id="navbarNavDropdown">
 
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="text-color:White !important;">
 
             <li class="nav-item dropdown">        
-                <button class=" boton_3" href="{{ url('/descripcion') }} " >Inicio</button>
+                <a style="text-color:White !important;" href="{{ url('/') }} " >Inicio</a>
             </li>
 
             <li class="nav-item dropdown">        
-                <button class=" boton_3" href="{{ url('/descripcion') }} " >Libros</button>
+                <a class=" boton_3" href="{{ url('/libros') }} " >Libros</a>
             </li>
 
             <li class="nav-item dropdown">        
-                <button class=" boton_3" href="{{ url('/descripcion') }} " >Editorial</button>
+                <a class=" boton_3" href="{{ url('/editorial') }} " >Editorial</a>
             </li>
 
         </ul>
