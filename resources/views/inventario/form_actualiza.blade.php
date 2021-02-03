@@ -16,15 +16,15 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">&#9020;</span>
                 </div>
-                <input type="number" id='titulo' name='titulo' class="form-control" placeholder="Título del Libro" value="{{$libro->titulo}}" required>
+                <input type="text" id='titulo' name='titulo' class="form-control" placeholder="Título del Libro" value="{{$libro->titulo}}" required>
             </div>
 
-            <label for="cantidad">Cantidad </label>
+            <label for="stock">Cantidad </label>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">&#9020;</span>
                 </div>
-                <input type="number" id='cantidad' name='cantidad'  class="form-control" placeholder="Cantidad" value="{{$libro->cantidad}}" required>
+                <input type="number" id='stock' name='stock'  class="form-control" placeholder="Cantidad" value="{{$libro->stock}}" required>
             </div>
 
             <label for="precio">Precio </label>
@@ -46,7 +46,7 @@
                     @endforeach
             </select>
             </br></br</br></br>
-            <button type="submit" class="boton_personalizado">Registrar</button>
+            <button type="submit" class="boton_personalizado">Actualizar</button>
             <button type="reset" class="boton_personalizado">Limpiar</button>
             <a href='{{url()->previous()}}' role="button" class="boton_personalizado_1">Cancelar</a>
         </form>

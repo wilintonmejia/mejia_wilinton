@@ -16,15 +16,15 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">&#9020;</span>
                 </div>
-                <input type="number" id='titulo' name='titulo' class="form-control" placeholder="Título del Libro" required>
+                <input type="text" id='titulo' name='titulo' class="form-control" placeholder="Título del Libro" required>
             </div>
 
-            <label for="cantidad">Cantidad </label>
+            <label for="stock">Cantidad </label>
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon1">&#9020;</span>
                 </div>
-                <input type="number" id='cantidad' name='cantidad'  class="form-control" placeholder="Cantidad" required>
+                <input type="number" id='stock' name='stock'  class="form-control" placeholder="Cantidad" required>
             </div>
 
             <label for="precio">Precio </label>
