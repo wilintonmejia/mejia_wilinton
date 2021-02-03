@@ -42,7 +42,7 @@
                                         <source src="{{ url('assets/img/103.mp4') }}" type="video/mp4"></source>
                                     </video>    
                             </div>-->
-                            <img class="rounded-circle" height="240" src="{{ url('assets/img/4.jpg') }}" alt="Card image cap">
+                            <img class="rounded-circle" height="240" src="{{ url('assets/img/2.jpg') }}" alt="Card image cap">
 
                             <!-- Card content -->
                             <div class="card-body">
