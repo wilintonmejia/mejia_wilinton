@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
        <div class="card bg-dark  mb-3" style="max-width: 100rem;">
-            <p class="card-text letra" align="center">Somos un almacén 100% nariñense, comercializadores de productos de la canasta familiar. Trabajamos siempre pensando en nuestros clientes.</p> 
+            <p class="card-text letra" align="center">Somos una librería 100% colombiana, comercializadores de los libros de todos los autores y editoriales conocidas. Trabajamos siempre pensando en nuestros clientes.</p> 
        </div>
        <div class="row">
                 <div class="col-md-4"> 
@@ -24,7 +24,7 @@
                                 <!-- Card content -->
                                 <div class="card-body">
                                     <p class="card-text letra" id="msg" style="color: White !important;" align="justify"> 
-                                        Nuestra misión es convertirnos en una cadena de supermercados a nivel nacional al tiempo que ofrecemos un amplio surtido de productos de calidad a unos precios competitivos. <a style="color: Gray !important;" href="#" role="button" data-toggle="collapse" data-target="#mision">Más</a>
+                                        Nuestra misión es convertirnos en una cadena de librerias a nivel nacional al tiempo que ofrecemos un amplio surtido de productos de calidad a unos precios competitivos. <a style="color: Gray !important;" href="#" role="button" data-toggle="collapse" data-target="#mision">Más</a>
                                         <p id="mision" class="letra collapse">El desarrollo de nuestra actividad se realiza teniendo en cuenta la labor de los empleados y el trato personalizado y cercano hacia el cliente.</br></br>A través de un compromiso con el desarrollo local, apostamos por el modelo de franquicia para fortalecer y hacer crecer el proyecto de Supermercados La Despensa apostando por el trabajo en equipo y la colaboración.</p>
                                     </p>
                                 </div>
@@ -47,7 +47,7 @@
                             <!-- Card content -->
                             <div class="card-body">
                                 <p class="card-text letra" id="msg" style="color: White !important;" align="justify"> 
-                                	Consolidarnos como una cadena de supermercados cercana, donde el cliente siempre esté bien atendido y pueda realizar su compra de manera agradable y satisfactoria.
+                                	Consolidarnos como una cadena de librerías cercana, donde el cliente siempre esté bien atendido y pueda realizar su compra de manera agradable y satisfactoria.
                                 </p>
                             </div>
                             

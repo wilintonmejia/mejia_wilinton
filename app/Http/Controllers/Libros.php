@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use App\Models\Libro;
+use App\Models\Editorial;
 
 
 class Libros extends Controller
