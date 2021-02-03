@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\General;
-use App\Http\Controllers\Libros;
+use app\Http\Controllers\Libros;
 use App\Http\Controllers\Editorial;
 
 /*
@@ -21,7 +21,7 @@ Route::get('/', [General::class, 'inicio']);
 //Libros
 Route::get('libros', [Libros::class, 'listado'] )->name('listadoLibros');
 
-Route::get('libros/registro', [Libros::class , 'formulario'])->name('registroClientes');
+Route::get('libros/registro', [Libros::class , 'formulario'])->name('registroLibros');
 
 Route::post('listados/registro', [Libros::class, 'registrar']);
 

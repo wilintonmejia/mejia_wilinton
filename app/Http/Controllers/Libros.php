@@ -13,12 +13,8 @@ class Libros extends Controller
 {
     public function listado(){
         
-        $libros = DB::table('productos as pro')
-                    ->join('categorias as cat', 'pro.categoria', '=', 'cat.id')
-                    ->select('pro.id','pro.precioProducto','pro.cantidadProducto','pro.nombreProducto', 'pro.fotoProducto', 'cat.nombreCategoria', 'pro.categoria')
-                    ->orderby('pro.id','asc')
-                    ->get();
-        return view('inventario.productos.productos', ['productos' => $productos]);
+        $libros = Libro::all();
+        return view('inventario.libros', ['libros' => $libros]);
     }
 
     public function porProducto(){

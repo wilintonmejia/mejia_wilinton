@@ -9,11 +9,11 @@
             </li>
 
             <li class="nav-item dropdown">        
-                <a class=" boton_3" href="{{ url('/libros') }} " >Libros</a>
+                <a class=" boton_3" href="{{ url('libros') }} " >Libros</a>
             </li>
 
             <li class="nav-item dropdown">        
-                <a class=" boton_3" href="{{ url('/editorial') }} " >Editorial</a>
+                <a class=" boton_3" href="{{ url('editorial') }} " >Editorial</a>
             </li>
 
         </ul>
