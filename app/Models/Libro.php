@@ -28,9 +28,12 @@ class Libro extends Model
 
     public static function descuento($editorial_fk){
         if($editorial_fk == '1' || $editorial_fk == '5'){
-            
+            $descuento = $this->precio*0.005;
         }
-        return static::where('precio', '>=', $precio)->get();
+        else{
+            $descuento = 0;
+        }
+        return $descuento;
     }
 
 }

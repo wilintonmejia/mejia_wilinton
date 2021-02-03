@@ -22,7 +22,7 @@
                 th scope="col">Estado</th>
                 <th scope="col">Editorial</th>
                 <th scope="col">Precio</th>
-                <!--<th scope="col">Descuento</th>-->
+                <th scope="col">Descuento</th>
                 <th scope="col">Opciones</th>
             </tr>
         </thead>
@@ -37,7 +37,7 @@
                     <td>{{ $b->editorial->nombre}}</td>
                     <td>{{ $b->precio}}</td>
                     
-                    <!--<td>{{ $b->descuento()}}</td>-->
+                    <td>{{ $b->descuento()}}</td>
                     <td><a href='{{url("libros/actualizar/{$b->id}")}}' class="boton_4"> ACTUALIZAR </a></td>
                 </tr>
             @endforeach
