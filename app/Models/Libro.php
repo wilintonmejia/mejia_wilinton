@@ -26,7 +26,7 @@ class Libro extends Model
 
     }
 
-    public static function descuento($editorial_fk){
+    /*public static function descuento($editorial_fk){
         if($editorial_fk == '1' || $editorial_fk == '5'){
             $descuento = $this->precio*0.005;
         }
@@ -34,6 +34,6 @@ class Libro extends Model
             $descuento = 0;
         }
         return $descuento;
-    }
+    }*/
 
 }
